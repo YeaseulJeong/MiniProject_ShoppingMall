@@ -2,7 +2,7 @@ package Classes;
 
 public class NoticeBoard {
 	
-	//게시글 번호
+	//게시글 번호fdasfdsafdfasfas
 	private int noticeNo;
 	// 제목
 	private String noticeTitle;
