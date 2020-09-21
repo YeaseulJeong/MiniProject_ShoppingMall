@@ -9,8 +9,6 @@ import ShoppingMall.VO.CustomerVO;
 
 public class CustomerDAO {
 
-<<<<<<< HEAD
-=======
 	// 입력
 	public boolean addCustomer(CustomerVO customer) {
 		Connection conn = null;
@@ -123,6 +121,4 @@ public class CustomerDAO {
 		}
 		return resultFlag;
 	}
-
->>>>>>> 896a1bfbf2da44caba8c60b2851fc79482ece1a8
 }
