@@ -4,57 +4,120 @@ import java.util.List;
 
 public class Order {
 	
-	private int productNum;
-	private int orderTotalPrice;
+	
+	private int orderNumber;
+	private String userId;
+	private int totalPrice;
+	private String orderDate;
+	private String address;
+	private String payMethod;
 	private List<Product> orderProductList;
-	private String customerId;
 	
 	
-	public int addOrder(int num) {
-		return productNum += num;
-	}
 	
-	public int minusOrder(int num) {
-		return productNum -= num;
+
+	public int getOrderNumber() {
+		return orderNumber;
 	}
 
-	
-	public int getProductNum() {
-		return productNum;
+
+
+
+	public void setOrderNumber(int orderNumber) {
+		this.orderNumber = orderNumber;
 	}
 
-	public void setProductNum(int productNum) {
-		this.productNum = productNum;
+
+
+
+	public String getUserId() {
+		return userId;
 	}
 
-	public int getOrderTotalPrice() {
-		return orderTotalPrice;
+
+
+
+	public void setUserId(String userId) {
+		this.userId = userId;
 	}
 
-	public void setOrderTotalPrice(int orderTotalPrice) {
-		this.orderTotalPrice = orderTotalPrice;
+
+
+
+	public int getTotalPrice() {
+		return totalPrice;
 	}
+
+
+
+
+	public void setTotalPrice(int totalPrice) {
+		this.totalPrice = totalPrice;
+	}
+
+
+
+
+	public String getOrderDate() {
+		return orderDate;
+	}
+
+
+
+
+	public void setOrderDate(String orderDate) {
+		this.orderDate = orderDate;
+	}
+
+
+
+
+	public String getAddress() {
+		return address;
+	}
+
+
+
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+
+
+
+	public String getPayMethod() {
+		return payMethod;
+	}
+
+
+
+
+	public void setPayMethod(String payMethod) {
+		this.payMethod = payMethod;
+	}
+
+
+
 
 	public List<Product> getOrderProductList() {
 		return orderProductList;
 	}
 
+
+
+
 	public void setOrderProductList(List<Product> orderProductList) {
 		this.orderProductList = orderProductList;
 	}
 
-	public String getCustomerId() {
-		return customerId;
-	}
 
-	public void setCustomerId(String customerId) {
-		this.customerId = customerId;
-	}
+
 
 	@Override
 	public String toString() {
-		return "Order [productNum=" + productNum + ", orderTotalPrice=" + orderTotalPrice + ", orderProductList="
-				+ orderProductList + ", customerId=" + customerId + "]";
+		return "주문번호 : "+orderNumber + "아이디  : "+userId + " 주문가격 : "+totalPrice+" 주문 날짜 : "+
+				orderDate + " 배송주소 : " + address +" 지불방법 : "+ payMethod;
 	}
 
 	

@@ -9,5 +9,9 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+<<<<<<< HEAD
+	<classpathentry kind="output" path="build/classes"/>
+=======
 	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
+>>>>>>> 896a1bfbf2da44caba8c60b2851fc79482ece1a8
 </classpath>
