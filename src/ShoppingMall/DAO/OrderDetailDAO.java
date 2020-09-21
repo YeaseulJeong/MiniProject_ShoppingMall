@@ -128,16 +128,5 @@ public class OrderDetailDAO {
 		}
 		return orderDetailList;
 	}
-	public static void main(String[] args) {
-		OrderDetailDAO dao = new OrderDetailDAO();
-		OrderDetail od = new OrderDetail();
-		od.setOrderNumber(1);
-		od.setProductCount(5);
-		od.setProductId("ss");
-		od.setProductPrice(1000);
-		od.setPrice(5000);
-		boolean b = dao.addOrderDetail(od);
-		if(b)
-			System.out.println("성공");
-	}
+
 }
