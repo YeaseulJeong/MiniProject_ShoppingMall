@@ -1,4 +1,4 @@
-package Classes;
+package ShoppingMall.VO;
 
 import java.util.List;
 
