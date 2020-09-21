@@ -1,4 +1,4 @@
-package Util;
+package ShoppingMall.Util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
